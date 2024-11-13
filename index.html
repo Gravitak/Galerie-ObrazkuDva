@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaktivní Galerie Inspirace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Interaktivní Galerie Inspirace</h1>
+        <input type="text" id="search-input" placeholder="Vyhledat obrázky...">
+    </header>
+    
+    <main id="gallery"></main>
+    
+    <footer>
+        <p>&copy; 2024 Interaktivní Galerie</p>
+    </footer>
+    
+    <!-- Modální okno pro zobrazení obrázků ve velkém -->
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+    </div>
+    
+    <script src="json.js"></script>
+</body>
+</html>
